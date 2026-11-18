@@ -1,0 +1,149 @@
+# ==================================================
+# Topic 02: Python Data Types
+# ==================================================
+
+
+# 1. Numeric Data Types
+
+# Integer
+age = 20
+print("Integer:", age)
+print("Type:", type(age))
+
+# Float
+percentage = 85.5
+print("\nFloat:", percentage)
+print("Type:", type(percentage))
+
+# Complex
+number = 3 + 5j
+print("\nComplex Number:", number)
+print("Type:", type(number))
+
+
+# ==================================================
+# 2. String Data Type
+# ==================================================
+
+student_name = "Rutika"
+course = "Computer Science"
+
+print("\nString Examples")
+print("Student Name:", student_name)
+print("Course:", course)
+print("Type:", type(student_name))
+
+
+# ==================================================
+# 3. Boolean Data Type
+# ==================================================
+
+is_student = True
+is_graduated = False
+
+print("\nBoolean Examples")
+print("Is Student:", is_student)
+print("Is Graduated:", is_graduated)
+print("Type:", type(is_student))
+
+
+# ==================================================
+# 4. List Data Type
+# ==================================================
+
+marks = [85, 90, 78, 92]
+
+print("\nList Examples")
+print("Marks:", marks)
+print("First Mark:", marks[0])
+print("Type:", type(marks))
+
+
+# ==================================================
+# 5. Tuple Data Type
+# ==================================================
+
+subjects = ("Python", "Java", "Database")
+
+print("\nTuple Examples")
+print("Subjects:", subjects)
+print("First Subject:", subjects[0])
+print("Type:", type(subjects))
+
+
+# ==================================================
+# 6. Set Data Type
+# ==================================================
+
+numbers = {10, 20, 30, 20, 40}
+
+print("\nSet Examples")
+print("Numbers:", numbers)
+print("Type:", type(numbers))
+
+# Duplicate values are automatically removed.
+
+
+# ==================================================
+# 7. Dictionary Data Type
+# ==================================================
+
+student = {
+    "name": "Rutika",
+    "age": 20,
+    "course": "BSc Computer Science"
+}
+
+print("\nDictionary Examples")
+print("Student Details:", student)
+print("Student Name:", student["name"])
+print("Type:", type(student))
+
+
+# ==================================================
+# 8. Range Data Type
+# ==================================================
+
+values = range(1, 6)
+
+print("\nRange Examples")
+print("Range Values:", list(values))
+print("Type:", type(values))
+
+
+# ==================================================
+# 9. Checking Multiple Data Types
+# ==================================================
+
+data1 = 100
+data2 = 45.6
+data3 = "Python"
+data4 = True
+data5 = [1, 2, 3]
+
+print("\nChecking Data Types")
+
+print(type(data1))
+print(type(data2))
+print(type(data3))
+print(type(data4))
+print(type(data5))
+
+
+# ==================================================
+# 10. Real-Life Example: Student Information
+# ==================================================
+
+student_name = "Rutika"
+roll_number = 25
+average_marks = 87.5
+subjects = ["Python", "Java", "DBMS"]
+is_passed = True
+
+print("\nSTUDENT INFORMATION")
+
+print("Name:", student_name)
+print("Roll Number:", roll_number)
+print("Average Marks:", average_marks)
+print("Subjects:", subjects)
+print("Passed:", is_passed)
