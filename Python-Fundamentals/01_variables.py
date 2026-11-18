@@ -1,1 +1,162 @@
+# ==========================================
+# Topic 01: Variables
+# ==================================================
 
+# 1. Introduction to Variables
+
+# A variable is a name used to store a value.
+# In Python, variables are created using assignment (=).
+
+student_name = "Rutika"
+age = 20
+course = "BSc Computer Science"
+percentage = 87.5
+
+print("STUDENT INFORMATION")
+print("Name:", student_name)
+print("Age:", age)
+print("Course:", course)
+print("Percentage:", percentage)
+
+
+# ==================================================
+# 2. Different Values Stored in Variables
+# ==================================================
+
+college = "ABC College"
+year = 3
+attendance = 92.5
+is_enrolled = True
+
+print("\nCOLLEGE DETAILS")
+print("College:", college)
+print("Year:", year)
+print("Attendance:", attendance)
+print("Enrolled:", is_enrolled)
+
+
+# ==================================================
+# 3. Rules for Naming Variables
+# ==================================================
+
+# Valid variable names
+
+student_id = 105
+subject_name = "Python"
+_total_marks = 450
+semester2 = 5
+
+# Invalid examples (kept as comments)
+
+# 2student = "Rutika"     # Cannot start with a number
+# student-name = "A"      # Hyphen is not allowed
+# student name = "A"      # Spaces are not allowed
+# class = "TYBSc"         # Reserved keyword
+
+
+# ==================================================
+# 4. Multiple Variable Assignment
+# ==================================================
+
+subject1, subject2, subject3 = 85, 90, 88
+
+print("\nSUBJECT MARKS")
+print("Subject 1:", subject1)
+print("Subject 2:", subject2)
+print("Subject 3:", subject3)
+
+
+# ==================================================
+# 5. Assigning the Same Value to Multiple Variables
+# ==================================================
+
+first = second = third = 100
+
+print("\nSAME VALUE ASSIGNMENT")
+print(first, second, third)
+
+
+# ==================================================
+# 6. Updating Variable Values
+# ==================================================
+
+project_status = "In Progress"
+
+print("\nPROJECT STATUS")
+print("Before Update:", project_status)
+
+project_status = "Completed"
+
+print("After Update:", project_status)
+
+
+# ==================================================
+# 7. Checking Variable Types
+# ==================================================
+
+name = "Rutika"
+marks = 90
+percentage = 90.5
+passed = True
+
+print("\nVARIABLE TYPES")
+print(type(name))
+print(type(marks))
+print(type(percentage))
+print(type(passed))
+
+
+# ==================================================
+# 8. Dynamic Typing in Python
+# ==================================================
+
+# A variable can store a different type of value later.
+
+value = 50
+print("\nDYNAMIC TYPING")
+print("Original Value:", value)
+print("Original Type:", type(value))
+
+value = "Python Programming"
+
+print("Updated Value:", value)
+print("Updated Type:", type(value))
+
+
+# ==================================================
+# 9. Swapping Two Variables
+# ==================================================
+
+a = 25
+b = 75
+
+print("\nBEFORE SWAPPING")
+print("a =", a)
+print("b =", b)
+
+a, b = b, a
+
+print("AFTER SWAPPING")
+print("a =", a)
+print("b =", b)
+
+
+# ==================================================
+# 10. Real-Life Example: Student Result
+# ==================================================
+
+student = "Rutika"
+python_marks = 88
+java_marks = 82
+database_marks = 91
+
+total_marks = python_marks + java_marks + database_marks
+average_marks = total_marks / 3
+
+print("\nSTUDENT RESULT")
+print("Student Name:", student)
+print("Python Marks:", python_marks)
+print("Java Marks:", java_marks)
+print("Database Marks:", database_marks)
+print("Total Marks:", total_marks)
+print("Average Marks:", average_marks)
